@@ -1,0 +1,35 @@
+20Dec2023 (v1.2)
+- Changed "Stereochemistry" option to "Molecular dimension"
+- Fixed the "InChI manipulation" metanode and the R functions related
+
+30Nov2023 (v1.1):
+- Fixed R function: restructComp [inorgComp<- which(organGroup==0 & xData[selID, "metalClass"]==0)]
+- Updated metal names list (in Molecule decomposition --> Rsnippet "complex molecular properties") 
+[metalNames<-c("Sc","Ti","V","Cr","Mn","Fe","Co","Ni","Cu","Zn","Y","Zr","Nb","Mo","Tc","Ru","Rh","Pd","Ag","Cd","Hf","Ta","W","Re","Os","Ir","Pt","Au","Hg","Rf","Db","Sg","Bh","Hs","Mt","Ds","Rg","Al","Ga","In","Tl","Sn","Pb","Bi",
+"Sb","Ge","La","Ce","Pr","Nd","Pm","Sm","Eu","Gd","Tb","Dy","Ho","Er","Tm","Yb","Lu","Po","Ac","Th","Pa","U","Np","Pu","Am","Cm","Bk","Cf","Es","Fm","Md","No","Lr")]
+- Fixed Table Row to Variable in SMILES input [CAS_NO excluded]
+- Updated String Manipulation (Variable) "ChemicalSMILER version" [updated ChemicalSMILER version]
+
+24Apr2024
+- Fixed final checks [failed SDF included]
+- Added CDK molecular weight (if RDKit doesn't work)
+- Original structures curation II [Column appender substituted with Joiner]
+- Normalized structures curation [Column appender substituted with Joiner]
+
+02May2024
+- Fixed identification of failed chemicals [Component Separator failure]
+
+22July2024
+- Forced to string all the input column
+- Added data integrity check for SDF and SMILES input (for missing CAS and Sources)
+- Substitute the Missing Column Rename con Column Rename (Missing Column Rename works only in KNIME 5.x)
+- Fixed the "counteriones management debug" R Snippet
+- Fixed the "Optional deletion of components" metanode
+- Modified the manipulation procedure for neutralization [Rule Engine "Missing InChI"; "InChI manipulation" metanode and the R functions related]
+- Modified the list of counterion eliminated with the basic neutralization
+
+24Sept2024
+- Fixed the input CAS No column name 
+
+14October2024
+- Fixed the input CAS No column name and version
