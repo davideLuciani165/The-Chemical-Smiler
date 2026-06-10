@@ -51,7 +51,7 @@ Open KNIME Analytics Platform.
 Go to **File > Import KNIME Workflow**, select the unpacked root folder, and double-click to start the workflow.
  
 2. Configuring the Input Modules and selecting the Abstraction Options
-See [The Chemical SMILERS usage](https://github.com/ChemicalSMILER_v1.5.2/TheChemicalSMILERS_HowToUse_mod22July2024.pdf)
+See [The Chemical SMILERS usage](https://github.com/ChemicalSMILER_v1.5.2/TheChemicalSMILERS_HowToUse.pdf)
 
 3. Running the Workflow and Exporting Results
 Right-click the final node and select Execute All.
