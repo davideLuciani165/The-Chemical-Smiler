@@ -42,11 +42,6 @@ Set the available software sites by clicking on **File > Preferences > Install/U
 You can import the CHEMICAL SMILER workflow by clicking on **File > Import KNIME workflow**. To open the workflow, double-click on it.
 
 ---
-## Additional tips
-We recommend viewing the heap status and freeing it between runs. To do so, click **File > Preferences > General** and select Show Heap Status.
-
-To free up memory, kill the Rserve process in Task Manager (only if you've completed the run and want to start a new one from the beginning; don't do this if you only want to restart the last "Structure Manipulation" component).
- 
 ## Usage Instructions
 1. Importing the Workflow
 Download or clone this repository to your local machine.
@@ -69,6 +64,3 @@ We recommend viewing the heap status and freeing it between runs. To do so, clic
 
 To free up memory, kill the Rserve process in Task Manager (only if you've completed the run and want to start a new one from the beginning; don't do this if you only want to restart the last "Structure Manipulation" component).
 
- 
-## License ??
-This project is open-source and licensed under the MIT License. See the internal documentation for further details.
